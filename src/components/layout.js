@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import { Flex } from "theme-ui"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,27 +25,20 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </div>
+    <Flex style={{
+      flexDirection: 'column',
+      minHeight: '100vh',
+      justifyContent: 'space-between',
+      background: '#281444',
+    }}>
+      <Header />
+      <main style={{ margin: '1.5rem', height: '100%' }}>{children}</main>
+      <footer style={{ marginLeft: '1.5rem', marginBottom: '1rem', color: '#D6D6D6' }}>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.com">Gatsby</a>
+      </footer>
+    </Flex>
   )
 }
 
