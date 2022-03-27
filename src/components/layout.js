@@ -13,7 +13,7 @@ import Header from "./header"
 import "./layout.css"
 import { Flex } from "theme-ui"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, background="white" }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       flexDirection: 'column',
       minHeight: '100vh',
       justifyContent: 'space-between',
-      background: '#281444',
+      background,
     }}>
       <Header />
       <main style={{ margin: '1.5rem', height: '100%' }}>{children}</main>

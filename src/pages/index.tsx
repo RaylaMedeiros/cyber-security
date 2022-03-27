@@ -36,7 +36,7 @@ const Statistic = ({
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout background="#281444">
       <Seo title="Home" />
       <h2
         style={{ textAlign: "center", color: "#D6D6D6", marginBottom: "2rem" }}
@@ -70,7 +70,7 @@ const IndexPage = () => {
           marginRight: "2rem",
         }}
       >
-        <Link to="/senhas">
+        <Link to="/posts/senhas">
           <Card
             title="Senhas Seguras"
             headStyle={{ fontSize: 18 }}
@@ -87,7 +87,7 @@ const IndexPage = () => {
             Saiba como criar senhas seguras e como gerenciar todas suas senhas.
           </Card>
         </Link>
-        <Link to="/phishing">
+        <Link to="/posts/phishing">
           <Card
             title="Phishing"
             headStyle={{ fontSize: 18 }}
@@ -103,7 +103,7 @@ const IndexPage = () => {
             Entenda como se proteger de ataques de <i>Phishing</i>.
           </Card>
         </Link>
-        <Link to="dataleaks">
+        <Link to="/posts/dataleaks">
           <Card
             title="Cheque se está seguro"
             headStyle={{ fontSize: 18 }}

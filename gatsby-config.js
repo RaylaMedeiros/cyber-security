@@ -36,7 +36,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+        defaultLayouts: {
+          posts: path.resolve('./src/components/postLayout.jsx'),
+          default: path.resolve('./src/components/layout.js')
+        },
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/pages/posts/`,
       },
     },
     `gatsby-plugin-theme-ui`,
