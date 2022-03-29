@@ -83,7 +83,7 @@ const SenhasSeguras = () => {
           extremamente seguros que se encarregam de guardar suas senhas, e por
           vezes de gerá-las e avisar quando precisa de uma atualização também.
           Abaixo, segue alguns gerenciadores de senhas recomendados:
-          <ul>
+          <ul style={{ marginTop: "1rem" }}>
             <li>Bitwarden</li>
             <li>1Password</li>
             <li>Dashlane Lastpass</li>
