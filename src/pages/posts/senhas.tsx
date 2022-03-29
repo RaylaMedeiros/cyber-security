@@ -15,7 +15,7 @@ const SenhasSeguras = () => {
           flexDirection: "column",
         }}
       >
-        <div style={{ marginBottom: "1rem" }}>
+        <div style={{ marginBottom: "1.5rem" }}>
           <h1>Como deixar minhas senhas mais seguras?</h1>
           Enquanto boa parte das pessoas já ouviram alguns conceitos básicos de
           segurança de senha, como usar senhas com letras e números, muitos
@@ -27,7 +27,7 @@ const SenhasSeguras = () => {
           criar e gerenciar suas senhas da maneira mais segura possível, se
           protegendo de possíveis ataques cibernéticos.
         </div>{" "}
-        <div style={{ marginBottom: "1rem" }}>
+        <div style={{ marginBottom: "1.5rem" }}>
           <h3>Evite senhas óbvias</h3>
           Provavelmente você já ouviu isso por ai, mas é sempre importante
           reforçar,{" "}
@@ -41,7 +41,7 @@ const SenhasSeguras = () => {
           muito fáceis de serem descobertas por hackers, por isso as evite.
           Prefira senhas não muito óbvias e complexas.
         </div>
-        <div style={{ marginBottom: "1rem" }}>
+        <div style={{ marginBottom: "1.5rem" }}>
           <h3>Senhas complexas</h3>
           Senhas muito simples e com poucos caracteres são rapidamente hackeadas
           através de algoritmos que tentam várias combinações. Quanto maior for
@@ -61,7 +61,7 @@ const SenhasSeguras = () => {
           números e caracteres especiais vai se tornando praticamente impossível
           ser descoberta.
         </div>
-        <div style={{ marginBottom: "1rem" }}>
+        <div style={{ marginBottom: "1.5rem" }}>
           <h3>Não reutilize senhas entre serviços</h3>
           Mesmo que você siga os passos anteriores, você pode estar sujeito à
           vazamento de dados de serviços que utiliza, que podem expor sua senha.
@@ -74,7 +74,7 @@ const SenhasSeguras = () => {
           segurança aconselham modificar suas senhas, principalmente dos
           serviços mais críticos que você utiliza, regularmente a cada 90 dias.
         </div>
-        <div style={{ marginBottom: "1rem" }}>
+        <div>
           <h3>Use um gerenciador de senha</h3>
           Entendemos que nos dias de hoje acessamos dezenas de sites e serviços
           pelos nossos computadores e celulares, tornando-se difícil criar
@@ -83,13 +83,13 @@ const SenhasSeguras = () => {
           extremamente seguros que se encarregam de guardar suas senhas, e por
           vezes de gerá-las e avisar quando precisa de uma atualização também.
           Abaixo, segue alguns gerenciadores de senhas recomendados:
-          <ul style={{ marginTop: "1rem" }}>
+          <ul>
             <li>Bitwarden</li>
             <li>1Password</li>
             <li>Dashlane Lastpass</li>
           </ul>
         </div>
-        <div style={{ marginBottom: "1rem" }}>
+        <div>
           <h3>Ative Autorização de dois ou múltiplos fatores (MFA)</h3>
           Você pode utilizar a autorização de múltiplos fatores para melhorar a
           segurança das suas contas mais importantes. Na MFA, você utiliza a

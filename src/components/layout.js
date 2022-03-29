@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
     <Flex style={{
       flexDirection: 'column',
       minHeight: '100vh',
-      justifyContent: 'space-between',
       backgroundColor: '#281444',
       color: '#D6D6D6',
     }}>
@@ -29,11 +28,6 @@ const Layout = ({ children }) => {
       }}>
         {children}
       </main>
-      <footer style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
     </Flex>
   )
 }
