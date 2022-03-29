@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react"
 import { Flex } from "theme-ui"
-import { Row, Col, Card } from "antd"
+import { Card } from "antd"
 import { ArrowUpOutlined } from "@ant-design/icons"
 
 import Layout from "../components/layout"
@@ -22,8 +22,8 @@ const Statistic = ({
     <Flex
       style={{ flexDirection: "column", alignItems: "center", width: "18rem" }}
     >
-      <div style={{ color: "#D6D6D6", fontSize: 16 }}>{title}</div>
-      <h2 style={{ color: "#D6D6D6", marginTop: "0.5rem" }}>
+      <div>{title}</div>
+      <h2 style={{ marginTop: "0.5rem" }}>
         {prefix}
         <span style={{ paddingLeft: "0.25rem", paddingRight: "0.25rem" }}>
           {value}
@@ -36,7 +36,7 @@ const Statistic = ({
 
 const IndexPage = () => {
   return (
-    <Layout background="#281444">
+    <Layout>
       <Seo title="Home" />
       <h2
         style={{ textAlign: "center", color: "#D6D6D6", marginBottom: "2rem" }}

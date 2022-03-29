@@ -1,5 +1,4 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import Layout from './layout'
 
 const Post = ({ title, children }) => {
