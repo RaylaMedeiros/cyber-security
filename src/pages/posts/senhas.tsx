@@ -9,8 +9,8 @@ const SenhasSeguras = () => {
       <Seo title="Senhas Seguras" />
       <Flex
         style={{
-          paddingLeft: "4rem",
-          paddingRight: "4rem",
+          paddingLeft: "2rem",
+          paddingRight: "2rem",
           textAlign: "justify",
           flexDirection: "column",
         }}
