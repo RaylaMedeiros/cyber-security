@@ -18,7 +18,7 @@ const Dataleaks = () => {
         }}
       >
         <div>
-          <h1>Vazamento de dados</h1>
+          <h1>Vazamento de Dados</h1>
           Por mais que nos protejarmos das diversas formas, ainda estamos reféns
           a possíveis vazamento de dados de empresa que utilizamos os serviços.
           Empresas como Facebook, Yahoo e Twitter já foram vítimas de ataques e
