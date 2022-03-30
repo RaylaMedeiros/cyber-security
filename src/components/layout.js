@@ -19,6 +19,7 @@ const Layout = ({ children }) => {
       minHeight: '100vh',
       backgroundColor: '#281444',
       color: '#D6D6D6',
+      paddingTop: '4.625rem',
     }}>
       <Header />
       <main style={{

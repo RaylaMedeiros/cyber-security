@@ -19,10 +19,8 @@ const Statistic = ({
   suffix?: string
 }) => {
   return (
-    <Flex
-      style={{ flexDirection: "column", alignItems: "center", width: "18rem" }}
-    >
-      <div>{title}</div>
+    <Flex style={{ flexDirection: "column", alignItems: "center" }}>
+      <div style={{ textAlign: "center" }}>{title}</div>
       <h2 style={{ marginTop: "0.5rem" }}>
         {prefix}
         <span style={{ paddingLeft: "0.25rem", paddingRight: "0.25rem" }}>
@@ -46,12 +44,13 @@ const IndexPage = () => {
       <Flex
         style={{
           justifyContent: "space-between",
-          paddingLeft: "8.25rem",
-          paddingRight: "8.25rem",
+          paddingLeft: "6rem",
+          paddingRight: "6rem",
           marginBottom: "1rem",
+          flexWrap: "wrap",
         }}
       >
-        <Statistic title="Ataques cibernetícos por dia" value={2200} />
+        <Statistic title="Ataques cibernéticos por dia" value={2200} />
         <Statistic
           title="Ataques cibernéticos por minuto no Brasil"
           value={54}
@@ -68,9 +67,10 @@ const IndexPage = () => {
           justifyContent: "space-between",
           marginLeft: "2rem",
           marginRight: "2rem",
+          flexWrap: "wrap",
         }}
       >
-        <Link to="/posts/senhas">
+        <Link to="/posts/senhas" style={{ marginBottom: "1rem" }}>
           <Card
             title="Senhas Seguras"
             headStyle={{ fontSize: 18 }}
@@ -87,7 +87,7 @@ const IndexPage = () => {
             Saiba como criar senhas seguras e como gerenciar todas suas senhas.
           </Card>
         </Link>
-        <Link to="/posts/phishing">
+        <Link to="/posts/phishing" style={{ marginBottom: "1rem" }}>
           <Card
             title="Phishing"
             headStyle={{ fontSize: 18 }}
@@ -103,7 +103,7 @@ const IndexPage = () => {
             Entenda como se proteger de ataques de <i>Phishing</i>.
           </Card>
         </Link>
-        <Link to="/posts/dataleaks">
+        <Link to="/posts/dataleaks" style={{ marginBottom: "1rem" }}>
           <Card
             title="Cheque se está seguro"
             headStyle={{ fontSize: 18 }}
