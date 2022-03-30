@@ -58,7 +58,7 @@ const Phishing = () => {
           estranho/desconhecido. Caso detecte, pare o contato e reporte da
           maneira que for possível este contato.
         </div>
-        <div>
+        <div style={{ marginBottom: "1.5rem" }}>
           <h3>Sempre desconfie!</h3>
           Sempre desconfie de formulários, e-mails, telefonemas e outros tipos
           de contatos em que estão pedindo muitas informações sem um motivo
