@@ -50,9 +50,12 @@ const Phishing = () => {
           regra pra estes casos, é entender que bancos ou empresas nunca irão
           pedir dados privados seus desta maneira, como seus documentos e nunca,
           em hipótese nenhuma, você deve compartilhar senhas ou informações de
-          login. Se receber links para clicar, cheque se o domínio do site
-          realmente corresponde com o da empresa que a pessoa diz ser, ou se é
-          um estranho/desconhecido. Caso detecte, pare o contato e reporte da
+          login. Mesmo que você tenha recebido uma mensagem de uma pessoa muito
+          próxima, lembre-se: eles também podem ter sido enganados ou hackeados.
+          E é por isso que você deve ser cuidadoso em qualquer situação. Se
+          receber links para clicar, cheque se o domínio do site realmente
+          corresponde com o da empresa que a pessoa diz ser, ou se é um
+          estranho/desconhecido. Caso detecte, pare o contato e reporte da
           maneira que for possível este contato.
         </div>
         <div>
@@ -64,6 +67,15 @@ const Phishing = () => {
           Por último, sempre pergunte qual a necessidade repetina de passar
           estes dados ou de realizar uma determinada ação, procure por provas
           que aquele contato está vindo de uma fonte confiável.
+        </div>
+        <div>
+          <h3>Cuidado ao acessar sua conta de bancos</h3>
+          Evite acessar sua conta de bancos e serviços similares em redes
+          públicas de Wi-Fi, restaurantes ou na rua. É melhor usar conexões de
+          celular ou esperar um pouco do que correr o risco de perder todo o seu
+          dinheiro. A questão é que essas redes podem ser criadas pelos
+          cibercriminosos, imitando endereços de sites durante a conexão e deste
+          modo redirecionam sua navegação para uma página falsa.
         </div>
       </Flex>
     </Layout>

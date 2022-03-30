@@ -74,13 +74,13 @@ const IndexPage = () => {
           <Card
             title="Senhas Seguras"
             headStyle={{ fontSize: 18 }}
-            bodyStyle={{ fontSize: 16, margin: 0 }}
+            bodyStyle={{ fontSize: 18, margin: 0 }}
             hoverable
             cover={
               <img
                 alt="senhas seguras"
                 src="https://excellium-services.com/wp-content/uploads/2021/01/Password-hashing.png"
-                style={{ margin: 0, width: 500, height: 390 }}
+                style={{ margin: 0, width: 550, height: 400 }}
               />
             }
           >
@@ -91,12 +91,12 @@ const IndexPage = () => {
           <Card
             title="Phishing"
             headStyle={{ fontSize: 18 }}
-            bodyStyle={{ fontSize: 16, margin: 0 }}
+            bodyStyle={{ fontSize: 18, margin: 0 }}
             cover={
               <img
                 alt="phishing"
                 src="https://static.wixstatic.com/media/e57e4d_908d833b0c1a4c128985912b7f9476ad~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_90,usm_0.66_1.00_0.01/e57e4d_908d833b0c1a4c128985912b7f9476ad~mv2.jpg"
-                style={{ margin: 0, width: 500, height: 390 }}
+                style={{ margin: 0, width: 550, height: 400 }}
               />
             }
           >
@@ -107,12 +107,12 @@ const IndexPage = () => {
           <Card
             title="Cheque se está seguro"
             headStyle={{ fontSize: 18 }}
-            bodyStyle={{ fontSize: 16, margin: 0 }}
+            bodyStyle={{ fontSize: 18, margin: 0 }}
             cover={
               <img
                 alt="vazamento de dados"
                 src="https://tm.ibxk.com.br/2020/06/25/25094112402241.jpg?ims=1120x420"
-                style={{ margin: 0, width: 500, height: 390 }}
+                style={{ margin: 0, width: 550, height: 400 }}
               />
             }
           >

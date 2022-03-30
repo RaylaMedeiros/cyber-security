@@ -6,7 +6,7 @@ const Header = () => (
     style={{
       padding: '1.5rem',
       borderBottom: '1px solid',
-      borderColor: '#1C0E2F'
+      borderColor: '#D6D6D6'
     }}
   >
       <h4 style={{ margin: 0, textTransform: 'capitalize' }}>
@@ -15,6 +15,8 @@ const Header = () => (
           style={{
             color: 'inherit',
             textDecoration: 'none',
+            paddingBottom: '0.125rem',
+            borderBottom: '2px solid'
           }}
         >
           Home
