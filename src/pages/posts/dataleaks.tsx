@@ -49,9 +49,11 @@ const Dataleaks = () => {
         <div style={{ marginBottom: "1.5rem" }}>
           <h3>O que fazer se algum dado seu foi vazado?</h3>
           Mude imediatamente a senha do serviço que seus dados foram vazados, e
-          em todos outros cantos que você use a mesma senha ou parecida. Caso
-          suas informações de contato também sido vazadas, dobre seu cuidado
-          para ataques de phishing que possam vir a acontecer.
+          em todos outros cantos que você use a mesma senha ou parecida. Além
+          disso, utilize algum método de verificação em duas etapas para evitar
+          que ocorra novamente. Caso suas informações de contato também tenham
+          sido vazadas, dobre seu cuidado para ataques de{" "}
+          <Link to="/posts/phishing">Phishing</Link> que possam vir a acontecer.
         </div>
       </Flex>
     </Layout>
