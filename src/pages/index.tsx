@@ -46,8 +46,8 @@ const IndexPage = () => {
       <Flex
         style={{
           justifyContent: "space-between",
-          paddingLeft: "7rem",
-          paddingRight: "7rem",
+          paddingLeft: "8.25rem",
+          paddingRight: "8.25rem",
           marginBottom: "1rem",
         }}
       >
